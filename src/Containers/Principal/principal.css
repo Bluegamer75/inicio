@@ -1,0 +1,53 @@
+    /*Cuerpo de la pagina*/
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+        width: 100%;
+    }
+    .flex-container-centro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .imagen-centro{
+        width: 80%;
+        height: 80%;
+    }
+
+    
+
+    .titulo-centro {
+       margin-left: 25%;
+    }
+    .subtitulo-centro {
+        margin-left: 25%;
+    }
+    .historia {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .flex-container-derecha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .flex-container-izquierda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }.flex-footer {
+        padding-top: 10px;
+    }
+
