@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Img2 from '../../../img/ermua-saski-eskola.jpeg'
 
 const Header = () => {
   return (
     <div>
-      <img src="img/ermua-saski-eskola.jpeg" className="header" />
+      <img src={Img2} className="header" />
       <div className="contacto">
         <h1 className="titulo-contacto">Inscripcion abierta</h1>
         <p>Aqui tienes toda la informacion que necesitas</p>
@@ -24,7 +24,7 @@ const Header = () => {
             <div className="modal-body">
               Para inscribirte en el club de baloncesto contáctanos al: <br />
               Email: ermuasaskibaloieskola@gmail.com <br />
-              Telefono: 688810588 <br />
+              Telefono: +34 629 32 94 64 <br />
               Datos a enviar (nombre, apellido, fecha de nacimiento, email y telefono)
             </div>
             <div className="modal-footer">

@@ -8,6 +8,7 @@ import Header from './Containers/Header/Header.jsx'
 import Principal from './Containers/Principal/Principal.jsx'
 import Footer from './Containers/Footer/Footer'
 import Equipos from './Containers/Equipos/Equipos'
+import Patrocinadores from './Containers/Patrocinadores/Patrocinadores'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Header />
         <Principal />
         <Equipos />
+        <Patrocinadores />
         <Footer />
        
     </>

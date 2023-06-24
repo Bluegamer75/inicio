@@ -114,7 +114,14 @@
     color: white;
     padding-top: 10px;
     border-top: 3px solid #f24202;
-    margin-top: 2em;
+    margin-top: 5em;
+}
+
+.Patrocinadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Cuerpo de la pagina*/
@@ -187,12 +194,39 @@
         width: 100%;
     
     }
+    
+    .flex-equipos {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 7em;
+        margin-left: -15em;
+        margin-right: -15em;
+        margin-bottom: -2em;
+        margin-top: 0em;
+        padding: -6px;
+    } .flex-equipos-item {
+            display: block;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 5px 4px rgba(0, 0, 0, 0.4);
+            color: #fff;
+    }
+          
+    
     .tw-followCard1 {
-        margin: 7em;
+        margin-bottom: 30%;
     }
     .flex-footer {
         padding-top: 10px;
     }
+    .Patrocinadores {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 /*Media querys (Parte moviles)*/
@@ -233,6 +267,7 @@
 .tw-followCard-info {
     display: flex;
     flex-direction: column;
+    margin-left: 0.5em;
    
 }
 
@@ -266,3 +301,33 @@
     background-color: #f24202
   }
   
+.flex-equipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flex-equipos-item {
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    margin-bottom: -1em;
+    padding: 1em ;
+    border-radius: 15px;
+    background-color: #222;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+  
+
+.imagen-centro-equipos {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}

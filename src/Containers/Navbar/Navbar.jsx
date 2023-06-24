@@ -1,11 +1,12 @@
 import React from 'react'
+import Img1 from '../../../img/saskibaloi ermua.png'
 
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
-          <span> <img src="/img/saskibaloi ermua.png" width="48px" height="48px"/> <a class="navbar-brand" href="#">Ermua Saskibaloia</a></span>
+          <span> <img src={Img1} width="48px" height="48px"/> <a class="navbar-brand" href="#">Ermua Saskibaloia</a></span>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
